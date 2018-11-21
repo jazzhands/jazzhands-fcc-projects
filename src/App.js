@@ -6,16 +6,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <p>
-            jazzhands.github.io
-          </p>
-          <ul>
-            <li>home</li>
-            <li>about</li>
-            <li>blog</li>
+          <ul className="header-list App-header">
+            <li>jazzhands.github.io</li>
+            <li className="header-item">home</li>
+            <li className="header-item">about</li>
+            <li className="header-item">blog</li>
           </ul>
-        </header>
+        
         <Projects/>
       </div>
     );
