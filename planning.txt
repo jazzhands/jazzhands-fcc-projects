@@ -1,0 +1,19 @@
+all pages will have a consistent header for navigation back home
+
+pages:
+    home
+        contains:
+            intro section
+            list of projects and thumbnails
+    project pages:
+        each fcc project
+
+
+state:
+    each fcc project will have its own branch of state, if necessary
+    overall app state will be kept in the app branch of state
+
+organization:
+    each project folder will have: 
+        all the content necessary to render the project
+        a thumbnail image
