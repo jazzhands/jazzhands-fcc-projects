@@ -2,9 +2,9 @@ all pages will have a consistent header for navigation back home
 
 pages:
     home
-        contains:
-            intro section
-            list of projects and thumbnails
+        is basically the personal protfolio project
+        intro section
+        grid of project thumbnail images that, when clicked, take you to that project page
     project pages:
         each fcc project
 
