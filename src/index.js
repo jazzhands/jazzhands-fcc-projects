@@ -3,22 +3,23 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
+import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 import Navbar from './Portfolio/Navbar';
 import Calculator from './Calculator/Calculator';
+import NotFound from './NotFound';
 
 
 const routing = (
     <div>
         <Navbar />
         <Router>
-            <div className="main-content">
+            <Switch className="main-content">
                 <Route exact path="/" component={App} />
                 <Route path="/calculator" component={Calculator} />
-            </div>
+                <Route component={NotFound} />
+            </Switch>
         </Router>
     </div>
-
 )
 
 ReactDOM.render(routing, document.getElementById('root'));
