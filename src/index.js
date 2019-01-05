@@ -12,12 +12,14 @@ import NotFound from './NotFound';
 const routing = (
     <div>
         <Navbar />
-        <Router>
-            <Switch className="main-content">
-                <Route exact path="/" component={App} />
-                <Route path="/calculator" component={Calculator} />
-                <Route component={NotFound} />
-            </Switch>
+        <Router className="main-content">
+            <div className="main-content">
+                <Switch>
+                    <Route exact path="/" component={App} />
+                    <Route path="/calculator" component={Calculator} />
+                    <Route component={NotFound} />
+                </Switch>
+            </div>
         </Router>
     </div>
 )

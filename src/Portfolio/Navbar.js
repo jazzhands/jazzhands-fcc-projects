@@ -7,7 +7,7 @@ class Navbar extends Component {
                 <li>jazzhands.github.io</li>
                 <li className="header-item"><a href="/">home</a></li>
                 <li className="header-item">about</li>
-                <li className="header-item">blog</li>
+                <li className="header-item"><a href="https://thesimpleswitch.blogspot.com/">blog</a></li>
             </ul>
         );
     }

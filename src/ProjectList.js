@@ -4,27 +4,32 @@ const ProjectList =
         {
             name:"Calculator",
             image:"calculator.png",
-            link:"/calculator"
+            link:"/calculator",
+            isEmbedded:true
         },
         {
             name:"Corey Doctorow Quotes",
             image:"doctorow.png",
-            link:"/doctorow"
+            link:"/doctorow",
+            isEmbedded:true
         },
         {
             name:"Pomodorow Timer",
             image:"pomodoro.png",
-            link:"/pomodoro"
+            link:"/pomodoro",
+            isEmbedded:true
         },
         {
             name:"Tic Tac Toe",
             image:"tictactoe.png",
-            link:"/tictactoe"
+            link:"/tictactoe",
+            isEmbedded:true
         },
         {
             name:"Local Weather Report",
             image:"weather.png",
-            link:"/weather"
+            link:"/weather",
+            isEmbedded:true
         }
     ]
 };
