@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 import Navbar from './Portfolio/Navbar';
 import Calculator from './Calculator/Calculator';
+import EmbeddedProject from './Projects/EmbeddedProject';
 import NotFound from './NotFound';
 
 
@@ -17,6 +18,7 @@ const routing = (
                 <Switch>
                     <Route exact path="/" component={App} />
                     <Route path="/calculator" component={Calculator} />
+                    <Route path="/embedded/:project" component={EmbeddedProject} />
                     <Route component={NotFound} />
                 </Switch>
             </div>
